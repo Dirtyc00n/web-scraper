@@ -1,4 +1,4 @@
-*Simple web escraper que almacenara caracteristicas y precio de los teclados con un 30 % de descuento como si fuera un usuario 
+* Simple web escraper que almacenara caracteristicas y precio de los teclados con un 30 % de descuento como si fuera un usuario 
 
 **Las variables By.CSS_SELECTOR Y 'input.nav-search-input' seran usadas para hacer click en un objeto en este caso el buscador de mercado libre, 'input.nav-search-input' y .send_keys('') se usara para mandar lo que buscaremos que seria 'teclado' luego para clickear en busqueda (EC.element_to_be_clickable((By.CSS_SELECTOR, 'div.nav-icon-search'))).click() y filanlmente copiamos el full href de 30 % de descuento (EC.presence_of_element_located((By.XPATH, '/html/body/main/div/div/aside/section/div[12]/ul/li[6]/a')))
 
